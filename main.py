@@ -1,9 +1,4 @@
-class Animal:
-    def __init__(self, name: str):
-        self.name = name
-
-    def speak(self) -> str:
-        return "Some sound"
+from models.animal import Animal
 
 
 class Dog(Animal):
