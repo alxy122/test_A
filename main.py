@@ -9,3 +9,4 @@ class Dog(Animal):
 if __name__ == "__main__":
     my_dog = Dog("Buddy")
     print(f"{my_dog.name} says {my_dog.speak()}")
+    print(my_dog.info())
